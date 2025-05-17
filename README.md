@@ -90,7 +90,7 @@ The project explored different loss weightings:
 
 The following image (Figure 1) shows a visual comparison of the Low-Resolution (LR) input, the High-Resolution (HR) ground truth, and the Super-Resolved (SR) output for different model configurations.
 
-![Visual Comparison of Super-Resolution Results: LR, HR, and SR outputs](Figure 1.png)
+![Visual Comparison of Super-Resolution Results: LR, HR, and SR outputs] (Figure 1.png)
 
 ## Code Structure
 
