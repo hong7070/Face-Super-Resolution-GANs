@@ -90,8 +90,8 @@ The project explored different loss weightings:
 
 * `data_utils.py`: Contains utility functions and PyTorch `Dataset` classes for loading and transforming image data.
 * `model.py`: Defines the Generator and Discriminator neural network architectures for the SRGAN model.
-* `loss_identity.py`: Defines the modified generator loss function, including the identity-preserving term using InceptionResnetV1 for face embeddings. *(The report also mentions a `loss.py` for baseline SRGAN, which is not included in the uploaded files but its logic is described in the report and implemented with modifications in `loss_identity.py`)*.
-* `train_identity.py`: The main training script for the SRGAN model with the identity-preserving loss. *(The report also mentions a `train.py` for baseline SRGAN, which is not included in the uploaded files but its logic is adapted in `train_identity.py`)*.
+* `loss_identity.py`: Defines the modified generator loss function, including the identity-preserving term using InceptionResnetV1 for face embeddings.
+* `train_identity.py`: The main training script for the SRGAN model with the identity-preserving loss.
 * `Final Project.pdf`: The detailed project report.
 
 ## How to Run
