@@ -81,8 +81,6 @@ The project explored different loss weightings:
     * Cosine Similarity: 0.8630
     * Observation: Superior identity preservation (e.g., reconstructing double eyelids), but slightly lower PSNR/SSIM and minor texture artifacts.
 
-*(Refer to `Final Project.pdf` for visual comparisons in Figure 1 and detailed training result tables in the Appendix.)*
-
 ### Key Takeaways
 * Incorporating an identity-preserving loss significantly improves facial feature preservation.
 * There's often a trade-off between identity consistency (cosine similarity) and traditional pixel-based metrics (PSNR, SSIM).
