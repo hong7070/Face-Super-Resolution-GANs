@@ -81,16 +81,16 @@ The project explored different loss weightings:
     * Cosine Similarity: 0.8630
     * Observation: Superior identity preservation (e.g., reconstructing double eyelids), but slightly lower PSNR/SSIM and minor texture artifacts.
 
+### Key Takeaways
+* Incorporating an identity-preserving loss significantly improves facial feature preservation.
+* There's often a trade-off between identity consistency (cosine similarity) and traditional pixel-based metrics (PSNR, SSIM).
+* Loss weight tuning is critical for balancing visual quality and identity fidelity.
+
 ## Visual Results Comparison
 
 The following image (Figure 1) shows a visual comparison of the Low-Resolution (LR) input, the High-Resolution (HR) ground truth, and the Super-Resolved (SR) output for different model configurations.
 
 ![Visual Comparison of Super-Resolution Results: LR, HR, and SR outputs](Figure 1.png)
-
-### Key Takeaways
-* Incorporating an identity-preserving loss significantly improves facial feature preservation.
-* There's often a trade-off between identity consistency (cosine similarity) and traditional pixel-based metrics (PSNR, SSIM).
-* Loss weight tuning is critical for balancing visual quality and identity fidelity.
 
 ## Code Structure
 
