@@ -107,7 +107,7 @@ The project explored different loss weightings:
     * facenet-pytorch
 
 2.  **Dataset:**
-    * Download the CelebA-HQ dataset (or a subset like DIV2K as mentioned in the `train_identity.py` script for `TrainDatasetFromFolder('data/DIV2K_train_HR', ...)`).
+    * Download the CelebA-HQ dataset
     * Organize it into the expected directory structure (e.g., `data/DIV2K_train_HR`, `data/DIV2K_valid_HR`).
 
 3.  **Training:**
