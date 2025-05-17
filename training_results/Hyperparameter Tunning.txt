@@ -1,0 +1,23 @@
+Modified SRGAN_1 (Best Visual Quality)
+return image_loss + 0.001 * adversarial_loss + 0.006 * perception_loss + 2e-8 * tv_loss + 0.006 * identity_loss
+
+Modified SRGAN_2
+return image_loss + 0.01 * adversarial_loss + 0.006 * perception_loss + 2e-8 * tv_loss + identity_loss
+
+Modified SRGAN_3
+image_loss + 0.1 * adversarial_loss + 0.006 * perception_loss + 2e-8 * tv_loss + 0.5 * identity_loss
+
+Modified SRGAN_4
+return image_loss + 0.001 * adversarial_loss + 0.006 * perception_loss + 2e-8 * tv_loss + 0.5 * identity_loss
+
+Modified SRGAN_5
+return image_loss + 0.001 * adversarial_loss + 0.006 * perception_loss + 2e-8 * tv_loss + identity_loss
+
+Modified SRGAN_6
+return image_loss + 0.001 * adversarial_loss + 0.006 * perception_loss + 2e-8 * tv_loss + 0.6 * identity_loss
+
+Modified SRGAN_7
+return image_loss + 0.001 * adversarial_loss + 0.006 * perception_loss + 2e-8 * tv_loss + 0.05 * identity_loss
+
+Modified SRGAN_8 ((Best Identity Similarity)
+return image_loss + 0.001 * adversarial_loss + 0.005 * perception_loss + 2e-8 * tv_loss + 0.6 * identity_loss
