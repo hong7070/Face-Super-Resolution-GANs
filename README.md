@@ -134,5 +134,3 @@ This work demonstrates that integrating an identity-preserving loss into SRGAN c
 * Cao, Q., Shen, L., Xie, W., Parkhi, O. M., & Zisserman, A. (2018). VGGFace2: A Dataset for Recognising Faces across Pose and Age. *2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018).*
 
 ---
-
-*This README was generated based on the "Final Project.pdf" report.*
